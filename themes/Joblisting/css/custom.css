@@ -126,8 +126,12 @@ footer .footer-item {
     text-decoration: none;
 }
 
-.pager li  {
-    /*float:left;*/
+.pager, .page ul {
+    display:inline-block!important;
 }
+.pager li  {
+    float:left;
+}
+
 
 
