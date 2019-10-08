@@ -75,6 +75,13 @@ label {
     margin:0;
     box-shadow: -10px 10px 20px #E9E9E9;
     margin-top:33px;
+    position:relative;
+}
+
+.job-card img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .job-card .description {
@@ -132,6 +139,7 @@ footer .footer-item {
 .pager li  {
     float:left;
 }
+
 
 
 

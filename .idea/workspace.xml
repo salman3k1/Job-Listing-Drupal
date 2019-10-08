@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d90e0601-295d-46c5-9393-a8d5924e17fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/themes/Joblisting/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/Joblisting/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/pager.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/pager.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/drupal/coder" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drupal/coder" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,20 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/pager.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            <state relative-caret-position="136">
+              <caret line="27" column="76" lean-forward="true" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/Joblisting/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="362">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -118,8 +117,8 @@
         <option value="$PROJECT_DIR$/sites/default/default.services.yml" />
         <option value="$PROJECT_DIR$/sites/default/services.yml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/themes/Joblisting/css/custom.css" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/pager.html.twig" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/css/custom.css" />
       </list>
     </option>
   </component>
@@ -326,12 +325,12 @@
       <option name="presentableId" value="Default" />
       <updated>1570428625146</updated>
       <workItem from="1570428626366" duration="24685000" />
-      <workItem from="1570513608236" duration="7720000" />
+      <workItem from="1570513608236" duration="8021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32405000" />
+    <option name="totallyTimeSpent" value="32706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -520,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Joblisting/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-view-unformatted--job-listing-cards--page.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -536,8 +528,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/pager.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="136">
+          <caret line="27" column="76" lean-forward="true" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
