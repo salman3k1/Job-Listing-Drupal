@@ -1,0 +1,87 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ *
+ * @ingroup themeable
+ */
+#}
+
+{#
+Possible field values
+#values: array:28 [▼
+"nid" => array:1 [▶]
+"vid" => array:1 [▶]
+"type" => array:1 [▶]
+"uuid" => array:1 [▶]
+"langcode" => array:1 [▶]
+"revision_uid" => array:1 [▶]
+"revision_timestamp" => array:1 [▶]
+"revision_log" => array:1 [▶]
+"revision_default" => array:1 [▶]
+"isDefaultRevision" => array:1 [▶]
+"status" => array:1 [▶]
+"uid" => array:1 [▶]
+"title" => array:1 [▶]
+"created" => array:1 [▶]
+"changed" => array:1 [▶]
+"promote" => array:1 [▶]
+"sticky" => array:1 [▶]
+"default_langcode" => array:1 [▶]
+"revision_translation_affected" => array:1 [▶]
+"field_apply_and_offer" => array:1 [▶]
+"field_gender" => array:1 [▶]
+"field_job_categ" => array:1 [▶]
+"field_job_description" => array:1 [▶]
+"field_last_date" => array:1 [▶]
+"field_nationality" => array:1 [▶]
+"field_posting_date" => array:1 [▶]
+"field_salary" => array:1 [▶]
+"view" => ViewExecutable {#535 ▶}
+
+    <dd>{{ drupal_dump(row['content']['#node']) }}</dd>
+    <dd>{{ drupal_dump(row['content']['#node'].title.getValue()[0].value) }}</dd>
+    <dd>{{ drupal_dump(row['content']['#node'].field_posting_date.getValue()[0].value) }}</dd>
+    <dd>{{ drupal_dump(row['content']['#node'].field_job_categ.getValue()[0].value) }}</dd>
+    <dd>{{ drupal_dump(row['content']['#node'].field_job_description.getValue()[0].value) }}</dd>
+    <dd>{{ drupal_dump(row['content']['#node'].field_nationality.getValue()[0].value) }}</dd>
+    <dd>{{ drupal_dump(row['content']['#node'].field_salary.getValue()[0].value) }}</dd>
+    <dd>{{ drupal_dump(row['content']['#node'].field_last_date.getValue()[0].value) }}</dd>
+    <dd>{{ drupal_dump(row['content']['#node'].field_apply_and_offer.getValue()[0].value) }}</dd>
+
+
+#}
+{#{% if title %}#}
+    {#<h1>Hello World</h1>#}
+    {#<h3>{{ title }}</h3>#}
+{#{% endif %}#}
+
+<section class="row bg-grey font-size-1 padding-top-3 padding-bottom-1">
+    <div class="col-sm-10 offset-sm-1">
+        <div class="row">
+            {% for row in rows %}
+                {%
+                    set row_classes = [
+                    default_row_class ? 'views-row',
+                ]
+                %}
+                {{- row.content -}}
+
+            {% endfor %}
+
+        </div>
+    </div>
+</section>
+
+

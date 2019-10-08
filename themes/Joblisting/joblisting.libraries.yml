@@ -1,0 +1,24 @@
+bootstrap:
+  version: VERSION
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+font-awesome:
+  version: VERSION
+  css:
+    theme:
+      css/font-awesome.min.css: {}
+slick-slider:
+  version: VERSION
+  css:
+    theme:
+      css/slick.css: {}
+  js:
+    js/slick.min.js: {}
+  dependencies:
+    - core/jquery
+custom-css:
+  version: VERSION
+  css:
+    theme:
+      css/custom.css: {}

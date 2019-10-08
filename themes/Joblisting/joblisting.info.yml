@@ -1,0 +1,25 @@
+
+name: Job Listing
+type: theme
+base theme: false
+description: 'A custom theme designed for Prototype Job Listing project.'
+package: Core
+version: VERSION
+core: 8.x
+libraries:
+  - joblisting/bootstrap
+  - joblisting/font-awesome
+  - joblisting/custom-css
+  - joblisting/slick-slider
+regions:
+  header: Header
+  header_social_media: "Header Social Media"
+  nav_branding: "Navigation Branding"
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_title: "Page Title"
+  content: Content
+  footer_menu: 'Footer Menu'
+  footer_social_media: 'Footer Social Media'
+
+
