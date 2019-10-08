@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d90e0601-295d-46c5-9393-a8d5924e17fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/default.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/default.services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/services.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/drupal/coder" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drupal/coder" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,15 +42,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/block--joblisting-page-title.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-view-unformatted--job-listing-cards--page.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1088">
@@ -77,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -85,6 +76,24 @@
                 <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/default.services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="745">
+              <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/default/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="753">
+              <caret line="173" column="30" selection-start-line="173" selection-start-column="30" selection-end-line="173" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -132,6 +141,7 @@
       <find>dd(</find>
       <find>title</find>
       <find>color</find>
+      <find>cors</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,7 +155,6 @@
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-view-unformatted--joblisting.html.twig" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-view-unformatted--job-listing-cards--page.html.twig.twig" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/block--joblisting-content.html.twig" />
-        <option value="$PROJECT_DIR$/sites/default/services.yml" />
         <option value="$PROJECT_DIR$/sites/default/settings.php" />
         <option value="$PROJECT_DIR$/sites/default/settings.local.php" />
         <option value="$PROJECT_DIR$/core/modules/views/templates/views-exposed-form.html.twig" />
@@ -158,6 +167,8 @@
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/page.html.twig" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/page--joblisting.html.twig" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/sites/default/default.services.yml" />
+        <option value="$PROJECT_DIR$/sites/default/services.yml" />
       </list>
     </option>
   </component>
@@ -298,35 +309,8 @@
             <path>
               <item name="joblisting" type="b2602c69:ProjectViewProjectNode" />
               <item name="joblisting" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="joblisting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="joblisting" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="Joblisting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="joblisting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="joblisting" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="Joblisting" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="joblisting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="joblisting" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="Joblisting" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="joblisting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="joblisting" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="Joblisting" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontPageJobListingView" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -369,12 +353,12 @@
       <option name="presentableId" value="Default" />
       <updated>1570428625146</updated>
       <workItem from="1570428626366" duration="24685000" />
-      <workItem from="1570513608236" duration="3942000" />
+      <workItem from="1570513608236" duration="4751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28627000" />
+    <option name="totallyTimeSpent" value="29436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -423,13 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -574,6 +551,20 @@
             <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/default.services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="173" column="30" selection-start-line="173" selection-start-column="30" selection-end-line="173" selection-end-column="30" />
         </state>
       </provider>
     </entry>
