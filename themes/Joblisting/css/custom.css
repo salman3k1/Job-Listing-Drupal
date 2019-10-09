@@ -8,8 +8,7 @@
 }
 
 .frontpage-header {
-    background-image: url("../img/img-about-slide-1.png");
-    min-height: 60vh;
+    /*background-image: url("../img/img-about-slide-1.png");*/
     color:#FFFFFF;
 }
 
@@ -42,6 +41,17 @@ nav ul li {
     padding:15px;
     font-size:14px;
 }
+
+nav ul li a,  nav ul li a:hover, nav ul li a:active{
+    color:#FFFFFF;
+}
+
+
+.navbar {
+    background:transparent;
+    border-bottom: #FFFFFF 1px solid;
+}
+
 
 .font-size-1 {
     font-size:14px;
@@ -140,6 +150,35 @@ footer .footer-item {
     float:left;
 }
 
+header{
+    /*height:60vh;*/
+}
+
+.header_bg_block {
+    /*position:relative;*/
+}
+
+.header_bg_block .bg-image {
+    /*position:absolute;*/
+    /*left:0;*/
+    /*top:0;*/
+    /*z-index:-1;*/
+}
+
+.header_bg_block .headlines {
+    /*position:relative;*/
+    /*top:50%;*/
+    /*left:50%;*/
+    /*transform: translate(0, -50%);*/
+}
+
+.region-header {
+    width:100%;
+}
+
+.social-list {
+    color:#FFFFFF;
+}
 
 
 
