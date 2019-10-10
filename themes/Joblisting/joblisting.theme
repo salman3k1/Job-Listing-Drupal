@@ -1,0 +1,28 @@
+<?php
+//use Drupal\views\ViewExecutable;
+
+//function joblisting_form_alter(&$form,&$form_state,$form_id){
+//
+//    if($form["#id"] == 'views-exposed-form-job-listing-cards-page-1'){
+//        $form['field_nationality_target_id']['#default_value'] = 'Nationality';
+//        unset($form['field_nationality_target_id']['#options']['All']);
+//
+//    }
+//}
+
+
+function joblisting_views_pre_render(\Drupal\views\ViewExecutable $view) {
+//    dd($view->name);
+
+//    if ($view->name == 'VIEW_NAME') {
+//        $view->filter['FIELD_ID']->value = "All";
+////        $view->exposed_input['FIELD_ID'] = "All";
+//    }
+}
+
+/**
+ * Hook to preprocess page
+ */
+function joblisting_preprocess_page(&$vars) {
+    $vars['path'] = \Drupal::service('path.current')->getPath();
+}

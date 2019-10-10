@@ -11,17 +11,22 @@ font-awesome:
   css:
     theme:
       css/font-awesome.min.css: {}
-slick-slider:
+slick:
   version: VERSION
   css:
     theme:
       css/slick.css: {}
+      css/slick-theme.css: {}
   js:
     js/slick.min.js: {}
   dependencies:
     - core/jquery
-custom-css:
+custom:
   version: VERSION
   css:
     theme:
       css/custom.css: {}
+  js:
+    js/custom.js: {}
+  dependencies:
+    - core/jquery

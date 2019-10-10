@@ -9,8 +9,9 @@ core: 8.x
 libraries:
   - joblisting/bootstrap
   - joblisting/font-awesome
-  - joblisting/custom-css
-  - joblisting/slick-slider
+  - joblisting/slick
+  - joblisting/custom
+
 regions:
   header: Header
   header_social_media: "Header Social Media"

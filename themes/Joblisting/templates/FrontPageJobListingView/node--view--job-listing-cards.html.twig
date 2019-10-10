@@ -94,60 +94,60 @@
     {#{{ dd(content.field_salary.0) }}#}
 
     {#<div{{ content_attributes }}>#}
-        <div {{ attributes.addClass(row_classes,"col-sm-6") }} {{ content_attributes }}>
+        <div {{ attributes.addClass(row_classes,"col-md-6") }} {{ content_attributes }}>
             <div class="job-card">
                 <div class="row">
-                    <div class="col-sm-2 text-center">
-                        <img src="/{{ directory }}/img/bell.svg" alt="Filter Icon" />
+                    <div class="col-2 text-center">
+                        <img src="/{{ directory }}/img/icons/wreath.svg" alt="Filter Icon" />
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-5 col-sm-7">
                         <div class="row font-size-2 font-weight-bold text-uppercase">
-                            <div class="col-sm-12">
+                            <div class="col-12">
                                 {{ label.0['#context'].value }}
                             </div>
                         </div>
                         <div class="row font-size-1 font-color-grey">
-                            <div class="col-sm-12">
+                            <div class="col-12">
                                 {{ content.field_posting_date.0['#title'] | date("m/d/Y") }}
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3 font-size-1 text-uppercase">
+                    <div class="col-5 col-sm-3 font-size-1 text-uppercase">
                         <span class="jobCategory">{{ content.field_job_categ.0['#title'] }}</span>
                     </div>
                 </div>
                 <div class="row description">
-                    <div class="col-sm-10 text-left offset-sm-1">
+                    <div class="col-10 text-left offset-1">
                         {% set description = content.field_job_description.0['#text']|striptags %}
                         {%  set trimLength = content.field_job_description.0['#text_summary_trim_length']  %}
                         {{ trimLength > 0 and description|length > trimLength ? description|slice(0, trimLength) ~ '...' : description }}
                     </div>
                 </div>
                 <div class="row description text-center">
-                    <div class="col-sm-10 offset-sm-1">
+                    <div class="col-10 offset-1 padding-0">
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-4 padding-0">
                                 <div class="row font-weight-bold text-uppercase">
-                                    <span class="col-sm-12">Nationality</span>
+                                    <span class="col-12 padding-0">Nationality</span>
                                 </div>
                                 <div class="row">
-                                    <span class="col-sm-12">{{ content.field_nationality.0['#title'] }}</span>
+                                    <span class="col-12 padding-0">{{ content.field_nationality.0['#title'] }}</span>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-4 padding-0">
                                 <div class="row font-weight-bold text-uppercase">
-                                    <span class="col-sm-12">Salary</span>
+                                    <span class="col-12 padding-0">Salary</span>
                                 </div>
                                 <div class="row">
-                                    <span class="col-sm-12">{{ content.field_salary.0['#markup'] }}</span>
+                                    <span class="col-12 padding-0">{{ content.field_salary.0['#markup'] }}</span>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-4 padding-0">
                                 <div class="row font-weight-bold text-uppercase">
-                                    <span class="col-sm-12">Last Date</span>
+                                    <span class="col-12 padding-0">Last Date</span>
                                 </div>
                                 <div class="row">
-                                    <span class="col-sm-12">{{ content.field_last_date.0['#title'] | date("m/d/Y")}}</span>
+                                    <span class="col-12 padding-0">{{ content.field_last_date.0['#title'] | date("m/d/Y")}}</span>
                                 </div>
                             </div>
                         </div>
@@ -158,6 +158,7 @@
                 </div>
             </div>
         </div>
+
 
     {#</div>#}
 

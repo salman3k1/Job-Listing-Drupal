@@ -2,15 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d90e0601-295d-46c5-9393-a8d5924e17fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/Joblisting/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/Joblisting/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/block--frontpageheader.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/Joblisting/templates/Menus/menu--main.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/Joblisting/templates/Regions/region--header.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/arrow-head-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/bell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/filter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/google-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/minus-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/plus-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/img/icons/wreath.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Joblisting/templates/Footer/menu--footer.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/files/default_images/img-about-slide-1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/Joblisting/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/Joblisting/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Joblisting/joblisting.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/Joblisting/joblisting.info.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/Joblisting/joblisting.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/Joblisting/joblisting.libraries.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/block--frontpageheader.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/block--frontpageheader.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/node--view--job-listing-cards.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/node--view--job-listing-cards.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/pager.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/pager.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-exposed-form--job-listing-cards.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-exposed-form--job-listing-cards.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Joblisting/templates/SocialMediaLinks/block--socialmedialinks.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/Joblisting/templates/SocialMediaLinks/block--socialmedialinks.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/Joblisting/templates/page--joblisting.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/Joblisting/templates/page--joblisting.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/drupal/coder" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drupal/coder" afterDir="false" />
     </list>
@@ -42,35 +59,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/page--joblisting.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/block--frontpageheader.html.twig">
+        <entry file="file://$PROJECT_DIR$/themes/Joblisting/joblisting.theme">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/Menus/menu--main.html.twig">
+        <entry file="file://$PROJECT_DIR$/core/modules/views/views.api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="298">
+              <caret line="719" column="9" selection-start-line="719" selection-start-column="9" selection-end-line="719" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-exposed-form--job-listing-cards.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/node--view--job-listing-cards.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="95" column="37" lean-forward="true" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/Joblisting/joblisting.libraries.yml">
+        <entry file="file://$PROJECT_DIR$/themes/Joblisting/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="408">
+              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -78,53 +113,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/Joblisting/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="179" column="18" selection-start-line="179" selection-start-column="18" selection-end-line="179" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/Regions/region--header.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/SocialMediaLinks/block--socialmedialinks.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/Joblisting/css/font-awesome.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19281" lean-forward="true" selection-start-line="4" selection-start-column="19281" selection-end-line="4" selection-end-column="19292" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/modules/system/templates/region.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="3" lean-forward="true" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/Joblisting/joblisting.info.yml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="22" selection-end-column="21" />
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/pager.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/Footer/menu--footer.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12">
+              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/Joblisting/joblisting.libraries.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -133,9 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>img</find>
-      <find>debug</find>
-      <find>database</find>
       <find>hash_sa</find>
       <find>deb</find>
       <find>settings.local.php</find>
@@ -149,6 +163,23 @@
       <find>header</find>
       <find>fa</find>
       <find>face</find>
+      <find>.job</find>
+      <find>form-control</find>
+      <find>jobCa</find>
+      <find>md</find>
+      <find>transfo</find>
+      <find>block</find>
+      <find>footer</find>
+      <find>d-sm-</find>
+      <find>d-md-block</find>
+      <find>nav</find>
+      <find>pager</find>
+      <find>background</find>
+      <find>selct</find>
+      <find>translate</find>
+      <find>&lt;a</find>
+      <find>upper</find>
+      <find>navbar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/Joblisting/joblisting.info.yml" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-view-unformatted--joblisting.html.twig" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-view-unformatted--job-listing-cards--page.html.twig.twig" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/block--joblisting-content.html.twig" />
@@ -165,21 +195,27 @@
         <option value="$PROJECT_DIR$/sites/default/settings.local.php" />
         <option value="$PROJECT_DIR$/core/modules/views/templates/views-exposed-form.html.twig" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-view-unformatted--job-listing-cards--page.html.twig" />
-        <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-exposed-form--job-listing-cards.html.twig" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/block--joblisting-page-title.html.twig" />
         <option value="$PROJECT_DIR$/sites/default/default.services.yml" />
         <option value="$PROJECT_DIR$/sites/default/services.yml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/pager.html.twig" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/page.html.twig" />
-        <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/node--view--job-listing-cards.html.twig" />
-        <option value="$PROJECT_DIR$/themes/Joblisting/joblisting.libraries.yml" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/Menus/menu--main.html.twig" />
-        <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/block--frontpageheader.html.twig" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/Regions/region--header.html.twig" />
-        <option value="$PROJECT_DIR$/themes/Joblisting/templates/page--joblisting.html.twig" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/templates/Fields/input--textfield.html.twig" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/block--frontpageheader.html.twig" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/templates/Footer/block--footer.html.twig" />
         <option value="$PROJECT_DIR$/themes/Joblisting/templates/SocialMediaLinks/block--socialmedialinks.html.twig" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/templates/Footer/menu--footer.html.twig" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/pager.html.twig" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-exposed-form--job-listing-cards.html.twig" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/joblisting.info.yml" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/joblisting.libraries.yml" />
         <option value="$PROJECT_DIR$/themes/Joblisting/css/custom.css" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/node--view--job-listing-cards.html.twig" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/templates/page--joblisting.html.twig" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/joblisting.theme" />
+        <option value="$PROJECT_DIR$/themes/Joblisting/js/custom.js" />
       </list>
     </option>
   </component>
@@ -327,7 +363,30 @@
               <item name="joblisting" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="Joblisting" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joblisting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joblisting" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="Joblisting" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joblisting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joblisting" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="Joblisting" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joblisting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joblisting" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="Joblisting" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontPageJobListingView" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -343,11 +402,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Salman\Documents\DockerApps\Global\joblisting\themes\Joblisting\img" />
       <recent name="C:\Users\Salman\Documents\DockerApps\Global\joblisting\themes\Joblisting\templates\SocialMediaLinks" />
       <recent name="C:\Users\Salman\Documents\DockerApps\Global\joblisting\themes\Joblisting\js" />
       <recent name="C:\Users\Salman\Documents\DockerApps\Global\joblisting\sites\default" />
       <recent name="C:\Users\Salman\Documents\DockerApps\Global\joblisting\themes\Joblisting\templates" />
-      <recent name="C:\Users\Salman\Documents\DockerApps\Global\joblisting\themes\Joblisting" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -375,18 +434,20 @@
       <workItem from="1570428626366" duration="24685000" />
       <workItem from="1570513608236" duration="9681000" />
       <workItem from="1570601432006" duration="141000" />
-      <workItem from="1570605533365" duration="13131000" />
+      <workItem from="1570605533365" duration="16857000" />
+      <workItem from="1570636339984" duration="9442000" />
+      <workItem from="1570687129025" duration="21635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47638000" />
+    <option name="totallyTimeSpent" value="82441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -411,13 +472,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/modules/views/templates/views-view-unformatted.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/settings.local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -504,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-view-unformatted--job-listing-cards--page.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -521,31 +568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/pager.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-exposed-form--job-listing-cards.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/page.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/node--view--job-listing-cards.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="108" column="27" lean-forward="true" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -556,13 +582,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/Joblisting/js/bootstrap.bundle.min.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/system/templates/menu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="49" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/modules/block/templates/block.html.twig">
       <provider selected="true" editor-type-id="text-editor">
@@ -585,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Joblisting/joblisting.info.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/Regions/region--header.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -599,45 +611,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/block--frontpageheader.html.twig">
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/Fields/input--textfield.html.twig" />
+    <entry file="file://$PROJECT_DIR$/core/modules/system/templates/input.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="238">
+          <caret line="14" column="39" selection-start-line="14" selection-end-line="14" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/page--joblisting.html.twig">
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-view-unformatted--job-listing-cards--page.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/SocialMediaLinks/block--socialmedialinks.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        <state relative-caret-position="1088">
+          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/Joblisting/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="19281" lean-forward="true" selection-start-line="4" selection-start-column="19281" selection-end-line="4" selection-end-column="19292" />
+          <caret line="4" column="19281" selection-start-line="4" selection-start-column="19281" selection-end-line="4" selection-end-column="19292" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/Joblisting/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/core/modules/system/templates/block--system-menu-block.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="179" column="18" selection-start-line="179" selection-start-column="18" selection-end-line="179" selection-end-column="18" />
+        <state relative-caret-position="391">
+          <caret line="23" column="62" lean-forward="true" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/Footer/block--footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/block--frontpageheader.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/system/templates/menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/img/icons/plus-circle.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/img/icons/plus.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/img/icons/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/img/icons/linkedin.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/img/icons/wreath.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/img/icons/twitter.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/img/icons/bell.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="5" column="112956" selection-start-line="5" selection-start-column="112946" selection-end-line="5" selection-end-column="112956" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/SocialMediaLinks/block--socialmedialinks.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/joblisting.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/Footer/menu--footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/js/slick.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/Joblisting/joblisting.libraries.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="408">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/views-exposed-form--job-listing-cards.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/pager.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/FrontPageJobListingView/node--view--job-listing-cards.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="95" column="37" lean-forward="true" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/views/views.api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="719" column="9" selection-start-line="719" selection-start-column="9" selection-end-line="719" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/templates/page--joblisting.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/joblisting.theme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Joblisting/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
         </state>
       </provider>
     </entry>

@@ -35,33 +35,41 @@
   {{ title_suffix }}
   {% block content %}
     <ul class=" social-list">
-
-      {% if content.field_linkedin_li[0]['#context']['value'] %}
-        <li>
-          <a href="{{ content.field_linkedin_li[0]['#context']['value'] }}" target="_blank">
-            <i class="{{ content.field_linkedin_icon[0]['#context']['value'] }}"></i>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if content.field_facebook_link[0]['#context']['value'] %}
-        <li>
-          <a href="{{ content.field_facebook_link[0]['#context']['value'] }}" target="_blank">
-            <i class="{{ content.field_facebook_icon_[0]['#context']['value'] }}"></i>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if content.field_twitter_link[0]['#context']['value'] %}
-        <li>
-          <a href="{{ content.field_twitter_link[0]['#context']['value'] }}" target="_blank">
-            <i class="{{ content.field_twitter_icon[0]['#context']['value'] }}"></i>
-          </a>
-        </li>
-      {% endif %}
-
-
-
+        {% if content.field_facebook_link[0]['#context']['value'] %}
+            <li>
+                <a href="{{ content.field_facebook_link[0]['#context']['value'] }}" target="_blank">
+                    {{ content.field_facebook_icon }}
+                </a>
+            </li>
+        {% endif %}
+        {% if content.field_twitter_link[0]['#context']['value'] %}
+            <li>
+                <a href="{{ content.field_twitter_link[0]['#context']['value'] }}" target="_blank">
+                    {{ content.field_tw }}
+                </a>
+            </li>
+        {% endif %}
+        {% if content.field_instagram_link[0]['#context']['value'] %}
+            <li>
+                <a href="{{ content.field_instagram_link[0]['#context']['value'] }}" target="_blank">
+                    {{ content.field_instagram_icon }}
+                </a>
+            </li>
+        {% endif %}
+        {% if content.field_google_pls_link[0]['#context']['value'] %}
+            <li>
+                <a href="{{ content.field_google_pls_link[0]['#context']['value'] }}" target="_blank">
+                    {{ content.field_google_plus_icon }}
+                </a>
+            </li>
+        {% endif %}
+        {% if content.field_linkedin_li[0]['#context']['value'] %}
+            <li>
+                <a href="{{ content.field_linkedin_li[0]['#context']['value'] }}" target="_blank">
+                    {{ content.field_linkedin_icon }}
+                </a>
+            </li>
+        {% endif %}
     </ul>
   {% endblock %}
 </div>

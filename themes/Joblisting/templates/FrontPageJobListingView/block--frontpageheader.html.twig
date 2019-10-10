@@ -27,12 +27,19 @@
  * @ingroup themeable
  */
 #}
-<div{{ attributes.addClass(['header_bg_block']) }}>
+{#file_url(content.field_header_bg_image.0.entity.getFileUri()))#}
+<div{{ attributes.addClass(['header_bg_block', 'col-12']) }} style="background-image: url('{{  file_url(content.field_header_bg_image.0['#item'].entity.uri.value) }}') ">
     <div class="bg-image">
-        {{ content.field_header_bg_image }}
+        {#<img class="img-responsive" src="{{ file_url(content.field_header_bg_image.0['#item'].entity.uri.value)  }}" alt="Header Image" />#}
+        {#{{ content.field_header_bg_image }}#}
     </div>
     <div class="headlines">
-        {{ content.field_header_text_one }}
-        {{ content.field_header_text_two }}
+        <div class="font-size-1">
+            {{ content.field_header_text_one }}
+        </div>
+        <div class="font-size-3 font-weight-bold">
+            {{ content.field_header_text_two }}
+        </div>
+
     </div>
 </div>
