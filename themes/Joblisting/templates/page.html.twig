@@ -45,97 +45,63 @@
  * @ingroup themeable
  */
 #}
+
 <div class="container-fluid">
-    <header class="row frontpage-header text-center">
-        <div class="col-sm-3 height-200">
-            <img class="logo center-vert " src="/{{ directory }}/img/prototype.svg" />
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark primary-color navbar-fixed-top">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#"><img class="logo center-vert " src="/{{ directory }}/img/prototype.svg" /></a>
+
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+                    {{ page.primary_menu }}
+                </div>
+            </nav>
         </div>
-        <nav class="col-sm-6">
-            <ul>
-                <li class="float-left">Working With Us</li>
-                <li class="float-left">How We Hire</li>
-            </ul>
-        </nav>
-        <div class="col-sm-3 height-200">
-            <img class="logo center-vert " src="/{{ directory }}/img/prototype.svg" />
-        </div>
+    </div>
+    <header class="frontpage-header text-center row">
+
+        {{ page.header }}
     </header>
-    <section class="row bg-white text-uppercase">
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            {{ page.content }}
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <footer class="row padding-top-1 padding-bottom-1 font-size-1">
         <div class="col-sm-10 offset-sm-1">
             <div class="row">
-                <div class="col-sm-4 text-center  padding-top-1 ">
-                    <a href="/joblisting/managerial" class="tabLink">
-                        <div class="">
-                            <h3 class="font-size-1">I am looking for </h3>
-                            <h1 class="font-size-3">Managerial Jobs</h1>
-                            <div class="tabbed-filter-selected"></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-4 text-center  padding-top-1 ">
-                    <a href="/joblisting/development" class="tabLink">
-                        <div class="">
-                            <h3 class="font-size-1"> I am looking for </h3>
-                            <h1 class="font-size-3">Development Jobs</h1>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-4 text-center  padding-top-1 ">
-                    <a href="/" class="tabLink">
-                        <div class="">
-                            <h3 class="font-size-1">Show Me</h3>
-                            <h1 class="font-size-3">All Jobs</h1>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    {{ page.content }}
-    <footer class="row padding-top-1 padding-bottom-1 font-size-1">
-        <div class="col-sm-10 offset-sm-2">
-            <div class="row">
                 <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-sm-4 footer-item">
-                            Terms & Conditions
-                        </div>
-                        <div class="col-sm-4 footer-item">
-                            News
-                        </div>
-                        <div class="col-sm-4 footer-item">
-                            Working Wih Us
-                        </div>
-                        <div class="col-sm-4 footer-item">
-                            FAQ
-                        </div>
-                        <div class="col-sm-4 footer-item">
-                            Sitemap
-                        </div>
-                        <div class="col-sm-4 footer-item">
-                            Careers
-                        </div>
-                        <div class="col-sm-4 footer-item">
-                            Privacy
-                        </div>
-                        <div class="col-sm-4 footer-item">
-                            Login
-                        </div>
-                    </div>
+                    {#<div class="row">#}
+                    {{ page.footer_menu }}
+
+                    {#</div>#}
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 text-center text-sm-left">
                     <div class="row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-12 font-weight-bold padding-bottom-2 text-uppercase">
                             Follow Us
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
-                            Icons Here
+                            {{ page.footer_social_media }}
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="col-sm-10 offset-sm-2 text-center footer-copyright">
+            <span>© 2017 All Rights Reserved, Prototype Interactive, LLC.</span>
         </div>
     </footer>
 
